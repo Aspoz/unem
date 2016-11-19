@@ -11,6 +11,12 @@ $(document).ready(function(){
         return $(el).attr('data-filter');
       })
       console.log(values);
+      if (values.length != 0) {
+        $('.filter').filter('.' + values.join('.')).show();
+        $('.filter').not('.' + values.join('.')).hide();
+      } else {
+        $('.filter').show();
+      }
 
         // var value = $(this).attr('data-filter');
         //
