@@ -1,0 +1,22 @@
+{
+  "pizzas": {
+    "margherita": {
+      "name": "Margherita",
+      "ingredients": ["tomato", "mozzarella"],
+    },
+    "marinara": {
+      "name": "Marinara",
+      "ingredients": ["mozzarella"]
+    },
+    "tonno-cipolla": {
+      "name": "Tonno e cipolla",
+      "ingredients": ["tomato", "mozzarella", "tuna", "onion"]
+    }
+  },
+  "ingredients": {
+    "tomato": "Tomato",
+    "mozzarella": "mozzarella",
+    "tuna": "Tuna",
+    "onion": "Onion"
+  }
+}
